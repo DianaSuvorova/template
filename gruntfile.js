@@ -97,7 +97,7 @@ module.exports = function (grunt) {
  
   grunt.registerTask('default', ['dev', 'watch']);
   grunt.registerTask('dev', ['browserify:dev', 'sass', 'replace', 'copy']);
-    grunt.registerTask('build', ['browserify:build', 'sass', 'replace', 'copy', 'cssmin', 'uglify']);
+  grunt.registerTask('build', ['browserify:build', 'sass', 'replace', 'copy', 'cssmin', 'uglify']);
 
 
 };
